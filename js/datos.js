@@ -31,8 +31,8 @@ window.addEventListener("load", function() {
           
           row.innerHTML = rowHTML;
           tableBody.appendChild(row);
-          console.log(response[index].nombre);
         }
+        
         preloader.classList.add("disabled");
         urlDatos.classList.remove("disabled");
       }
