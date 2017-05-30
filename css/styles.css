@@ -1,4 +1,3 @@
 
-body, html {
-	
-}
+.disabled { display: none; }
+.table-container { margin-top: 32px; }
